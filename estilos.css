@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
+#contenedor-completo{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#foto{
+    width: 180px;
+    border-radius: 100px;
+    border: 1.5px solid rgb(107, 107, 113) ;
+    flex: 0 0 auto;
+}
+#contenedor-encabezado{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.linkicono:hover{
+    border-bottom: 1px solid gray;
+}
+.tabla, td{
+    border: 1px groove;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo2{
+    transition: 0.2s;
+    transform: 0.2s;
+}
+.titulo2:hover{
+    transform: scale(1.03);
+}
+.contenedor{
+    text-align: center;
+}
